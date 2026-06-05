@@ -26,3 +26,9 @@ Chạy dd ra boot_a.img
 <img width="1099" height="219" alt="cmd_OrWmhwWZjt" src="https://github.com/user-attachments/assets/f4507903-9bbe-44fb-b3d8-8e3013e20ced" />
 
 sau đó vào magisk patch lại img rồi cài magisk là xong
+
+```
+adb reboot bootloader
+
+fastboot boot C:\Users\admin\Downloads\magisk_patched_boot_a.img
+```

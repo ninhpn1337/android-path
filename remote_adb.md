@@ -5,6 +5,9 @@ reset mọi thứ về gốc:
 ```
 adb shell wm size reset
 adb shell wm density reset
+adb shell svc power stayon false
+adb shell settings put system screen_brightness_mode 1
+adb shell settings put system screen_brightness 128
 ```
 
 resize màn thì dùng 

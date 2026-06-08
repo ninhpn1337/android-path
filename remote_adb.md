@@ -1,5 +1,12 @@
 Usb và wifi thì dùng cái này: https://github.com/barry-ran/QtScrcpy
 
+reset mọi thứ về gốc: 
+
+```
+adb shell wm size reset
+adb shell wm density reset
+```
+
 resize màn thì dùng 
 
 ```

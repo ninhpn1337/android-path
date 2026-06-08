@@ -12,8 +12,9 @@ adb shell settings put system screen_brightness 500
 
 resize màn thì dùng 
 
+
 ```
-adb shell wm size 1920x1080
+adb shell wm size 1080x1920
 ```
 
 Ép máy không bao giờ ngủ: 

@@ -1,4 +1,6 @@
-Update zip: *#*#1027#*#* - ném vào OTA/update.zip
+Update zip: 
+```*#*#1027#*#*```
+- ném vào OTA/update.zip
 
 ```
 fastboot flash boot_a boot_a_4

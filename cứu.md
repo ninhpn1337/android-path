@@ -10,9 +10,6 @@ fastboot flash system_b system_b_0
 fastboot flash vendor_a vendor_a_0
 fastboot flash vendor_b vendor_b_0
 fastboot --set-active=a
-fastboot format:ext4 userdata
-fastboot reboot
-
 ```
 
 
@@ -23,4 +20,9 @@ fastboot flash dsp_a dsp_a_4
 fastboot flash dsp_b dsp_b_4
 fastboot flash bluetooth_a bluetooth_a_4
 fastboot flash bluetooth_b bluetooth_b_4
+```
+
+```
+fastboot format:ext4 userdata
+fastboot reboot
 ```

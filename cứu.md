@@ -31,3 +31,21 @@ fastboot --set-active=a
 fastboot format:ext4 userdata
 fastboot reboot
 ```
+
+flash rom zip: 
+
+payload-dumper-go payload.bin
+
+
+```
+fastboot flash boot boot.img
+
+fastboot flash dtbo dtbo.img
+
+fastboot flash vbmeta vbmeta.img
+
+
+fastboot flash system system.img
+
+fastboot flash vendor vendor.img
+```

@@ -28,9 +28,9 @@ fastboot flash bluetooth_b bluetooth_b_4
 
 
 flash rom zip: 
-
+```
 payload-dumper-go payload.bin
-
+```
 
 ```
 fastboot flash boot boot.img

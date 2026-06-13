@@ -26,11 +26,6 @@ fastboot flash bluetooth_a bluetooth_a_4
 fastboot flash bluetooth_b bluetooth_b_4
 ```
 
-```
-fastboot --set-active=a
-fastboot format:ext4 userdata
-fastboot reboot
-```
 
 flash rom zip: 
 
@@ -48,4 +43,13 @@ fastboot flash vbmeta vbmeta.img
 fastboot flash system system.img
 
 fastboot flash vendor vendor.img
+```
+Nếu cần set active
+```
+fastboot --set-active=a
+```
+
+```
+fastboot format:ext4 userdata
+fastboot reboot
 ```

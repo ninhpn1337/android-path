@@ -14,3 +14,13 @@ fastboot format:ext4 userdata
 fastboot reboot
 
 ```
+
+
+```
+fastboot flash modem_a modem_a_4
+fastboot flash modem_b modem_b_4
+fastboot flash dsp_a dsp_a_4
+fastboot flash dsp_b dsp_b_4
+fastboot flash bluetooth_a bluetooth_a_4
+fastboot flash bluetooth_b bluetooth_b_4
+```

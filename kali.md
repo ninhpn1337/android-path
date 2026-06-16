@@ -1,3 +1,13 @@
+```
+adb remount
+adb shell
+echo "/data/data/com.offsec.nethunter/scripts/bootkali" > kali
+chmod +x kali
+./kali
+```
+
+####VNC####
+
 set password với 
 ```
 vncpasswd

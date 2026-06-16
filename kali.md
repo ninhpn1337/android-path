@@ -1,3 +1,5 @@
+Mở kali services rồi chạy
+
 ```
 adb remount
 adb shell

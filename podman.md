@@ -34,7 +34,7 @@ podman run -d -p 3443:3443 -v acunetix_data:/home/acunetix/.acunetix --restart=u
 
 Chạy natport: 
 ```
-podman run -d --name test-web --network my-net -p 0.0.0.0:8080:80 nginx
+podman run -d --network my-net -p 0.0.0.0:8080:80 nginx
 ```
 
 Firewall: 

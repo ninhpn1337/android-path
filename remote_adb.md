@@ -35,7 +35,11 @@ Tăng điểm ảnh:
 ```
 adb shell wm density 420
 ```
-
+Tắt thông báo cắm usb
+```
+su
+settings put global usb_remember_choice 1
+```
 Đẩy file (với root) - Nếu có arm64 hoặc aarch64 thì có thể đẩy thằng vào /system/bin/ để gọi được nhé 
 ```
 adb remount

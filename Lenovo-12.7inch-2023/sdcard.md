@@ -14,6 +14,7 @@ Add force sử dụng
 sm set-force-adoptable true
 ```
 Bind thẻ nhớ vào sử dụng:
-``
+
+```
 sm partition disk:179,0 private
 ```

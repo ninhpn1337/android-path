@@ -66,18 +66,17 @@ setprop fw.show_multiuserui 1
 ```
 
 
-ể khởi chạy một ứng dụng cụ thể dưới một không gian user nhất định (ví dụ user 10), bạn có thể sử dụng công cụ Activity Manager (am) hoặc Monkey.
+Để khởi chạy một ứng dụng cụ thể dưới một không gian user nhất định (ví dụ user 10), bạn có thể sử dụng công cụ Activity Manager (am) hoặc Monkey.
 
-Dưới đây là 2 cách phổ biến nhất, giả định bạn đã cài đặt ứng dụng cho user đó rồi:
-
-Cách 1: Dùng lệnh monkey (Khuyên dùng - Nhanh và dễ nhất)
-Cách này rất tiện vì bạn chỉ cần biết tên gói (Package Name) của ứng dụng mà không cần biết tên Activity khởi chạy. Lệnh này hoạt động giống như việc bạn chạm vào biểu tượng của app trên màn hình chính của user đó.
-
-```
-monkey --user 10 -p ten.goi.ung.dung -c android.intent.category.LAUNCHER 1
-```
-Ví dụ: Để mở Google Chrome cho user 10:
+Copy ứng dụng cho user khác: 
+Cách 1: Sử dụng lệnh install-existing (Khuyên dùng)
+Đây là cách nhanh nhất và chuẩn nhất trên các thiết bị Android hiện đại để cài một ứng dụng đã có sẵn sang một user khác (ví dụ cài cho User 10).
 
 ```
-monkey --user 10 -p com.android.chrome -c android.intent.category.LAUNCHER 1
+pm install-existing --user 10 ten.goi.ung.dung
+```
+Ví dụ với game Riot bạn vừa thao tác:
+
+```
+pm install-existing --user 10 com.riot.FFGSSea
 ```

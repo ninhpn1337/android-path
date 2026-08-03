@@ -1,4 +1,5 @@
 Kali nethunter</br>
+App manager - https://github.com/muntashirakon/appmanager - đục app </br>
 Thanox - bắt activity để hook </br>
 macro droid - adb on boot
 ```

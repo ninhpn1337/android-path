@@ -22,3 +22,4 @@ pixels - chỉnh độ phân giải
 https://play.google.com/store/apps/details?id=com.tribalfs.pixels
 ```
 cetusplay - điều khiển tv</br>
+zerotier - https://github.com/linuxscreen/ZeroTierOneForMagisk</br>
